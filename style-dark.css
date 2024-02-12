@@ -1,0 +1,122 @@
+body {
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  background-color: rgb(0, 0, 0);
+  font-size: 16px;
+  line-height: 22px;
+}
+h1, h3 {
+  color: #efefef;
+  font-family: Montserrat, sans-serif;
+  line-height: 32px;
+}
+h3 {
+  margin-bottom: 24px;
+}
+h2 {
+  color: #c0c0c0c4;
+}
+img {
+  width: 15%;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+p {
+  color: #efefef;
+}
+a {
+  text-decoration: none;
+  color: #fbfbfb;
+}
+.btn_secondary{
+  background-color: rgba(255, 255, 255, 0);
+  border: solid 1px #ababab;
+}
+.btn_secondary a {
+  color: #c4dae0;
+}
+.btn_secondary a:hover {
+  color: #0D3B48;
+}
+button {
+  margin: 16px 0px;
+  background-color: #8c8c8c00; /* Green */
+  border: solid 1px white;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+}
+button:hover {
+  background-color: #c4dae0;
+  color: #0D3B48;
+  transition: all 0.3s ease;
+}
+ul {
+  display: flex;
+  margin-left: -50px;
+  list-style: none;
+  margin-bottom: 16px;
+}
+li {
+  padding: 4px;
+}
+.card {
+  margin: 16px auto;
+  background-color: #1d1d1d;
+  padding: 16px 24px;
+  width: 70%;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+.card:hover{
+  box-shadow: rgba(17, 12, 46, 0.1) 0px 48px 100px 0px;
+}
+.grey-circle {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  width: 50px;
+  height: 50px;
+  background-color: #ffffff33;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+.grey-circle:hover {
+  background-color: #ffffff;
+  color: white;
+}
+.grey-circle:hover a {
+  color: #0D3B48
+}
+
+.fa-chevron-right {
+  margin-left: 16px;
+  animation: hover-me .5s infinite ease-in-out alternate;
+}
+@keyframes hover-me {
+  100% { transform: translate3d(4px, 0px, 0); }
+}
+
+@media (max-width: 375px) {
+  img {
+    width: 25%;
+  }
+  h2 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 280px) {
+  button {
+    padding: 8px 16px;
+  }
+  ul {
+    flex-wrap: wrap;
+  }
+}
