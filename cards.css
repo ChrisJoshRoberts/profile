@@ -1,0 +1,73 @@
+.card-project {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 70;
+  border-radius: 8px;
+  height: 200px;
+  background-size: cover;
+  margin: 16px 8px;
+}
+.dark-container {
+  flex-direction: column;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  position: absolute;
+  background-color: black;
+  opacity: 0.2;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  z-index: 1;
+  transition: all 0.3s ease;
+}
+.dark-container:hover {
+  opacity: 0.5;
+}
+.dark-container h2 {
+  color: white;
+  z-index: 2;
+  visibility: hidden;
+  margin: 0
+}
+.dark-container:hover h2 {
+  visibility: inherit;
+}
+
+.dark-container p {
+  color: white;
+  visibility: hidden;
+  margin: 0;
+
+}
+.dark-container:hover p {
+  visibility: inherit;
+}
+.text  {
+  padding: 16px;
+  text-align: right;
+}
+.portfolio-container {
+display: flex;
+}
+.portfolio-container a {
+  width: 100%
+}
+/* .card-header {
+  margin: 16px 13.8%;
+  background-color: #ffffff;
+  padding: 16px 24px;
+  width: 40%;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+} */
+
+/* add another commet */
+
+@media (max-width: 500px) {
+  .portfolio-container {
+    flex-wrap: wrap;
+  }
+}
