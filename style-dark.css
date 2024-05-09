@@ -28,6 +28,7 @@ p {
   color: #efefef;
 }
 a {
+  width: 50%;
   text-decoration: none;
   color: #fbfbfb;
 }
@@ -68,10 +69,11 @@ li {
   padding: 4px;
 }
 .card {
+  display: flex;
+  flex-wrap: wrap;
   margin: 16px auto;
   background-color: #1d1d1d;
   padding: 16px 24px;
-  width: 70%;
   border-radius: 8px;
   transition: all 0.2s ease;
 }
@@ -104,7 +106,7 @@ li {
   100% { transform: translate3d(4px, 0px, 0); }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 430px) {
   img {
     width: 25%;
   }
