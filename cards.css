@@ -55,15 +55,6 @@ flex-wrap: wrap;
 }
 .portfolio-container a {
   width: 50%;
-}
-/* .card-header {
-  margin: 16px 13.8%;
-  background-color: #ffffff;
-  padding: 16px 24px;
-  width: 40%;
-  border-radius: 8px;
-  transition: all 0.2s ease;
-} */
 
 @media (max-width: 500px) {
   .portfolio-container {
